@@ -11,8 +11,8 @@ This project implements an arithmetic expression parser and evaluator. It can pr
 
 ### Prerequisites
 
-- CMake (version 3.28 or higher)
-- C++ compiler supporting C++26 standard
+- CMake (version 3.22 or higher)
+- C++ compiler supporting C++17 standard
 
 ### Building the Project
 

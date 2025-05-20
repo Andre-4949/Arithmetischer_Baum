@@ -1,8 +1,8 @@
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.22)
 project(LaborRechenBaum)
 
-set(CMAKE_CXX_STANDARD 26)
+set(CMAKE_CXX_STANDARD 17)
 
-file(GLOB_RECURSE src "include/*.h" "include/*.hpp" "src/*.cpp")
+file(GLOB_RECURSE SRC "include/*.h" "include/*.hpp" "src/*.cpp")
 
 add_executable(LaborRechenBaum ${SRC})
